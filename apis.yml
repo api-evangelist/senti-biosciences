@@ -1,8 +1,24 @@
 aid: senti-biosciences
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/senti-biosciences.png
 name: Senti Biosciences
-description: 'Senti Biosciences is a company surfaced as a portfolio company of lux-capital, menlo-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: biotech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Senti Biosciences (Nasdaq: SNTI) is a clinical-stage biotechnology company based in
+  South San Francisco, California that engineers programmable "Gene Circuits" into cell and gene
+  therapies to treat cancer with greater precision and control. Its lead candidate, SENTI-202, is an
+  off-the-shelf logic-gated CAR NK cell therapy in clinical trials for acute myeloid leukemia and other
+  hematologic malignancies. The company was surfaced as a portfolio company of lux-capital and
+  menlo-ventures. As a therapeutics company it exposes no public developer API, SDK, or documentation
+  surface; this profile captures its identity and probed domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/senti-biosciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Biotech
+- Biotechnology
+- Cell and Gene Therapy
+- Gene Circuits
+- Oncology
+- Therapeutics
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +46,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/senti-biosciences-domain-security.yml
 - type: Website
   url: https://www.sentibio.com
+- type: InvestorRelations
+  url: https://investors.sentibio.com/
+- type: Careers
+  url: https://careers.sentibio.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
